@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/PyTest_PageObject_Project.iml" filepath="$PROJECT_DIR$/.idea/PyTest_PageObject_Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../stepik_selenium/.idea/stepik_selenium.iml" filepath="$PROJECT_DIR$/../stepik_selenium/.idea/stepik_selenium.iml" />
     </modules>
   </component>
 </project>
