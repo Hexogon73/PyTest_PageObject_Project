@@ -13,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.28421053">
+    <splitter split-orientation="horizontal" split-proportion="0.43562752">
       <split-first>
         <splitter split-orientation="vertical" split-proportion="0.9">
           <split-first>
@@ -22,7 +22,7 @@
                 <entry file="file://$PROJECT_DIR$/test_product_page.py">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="153">
-                      <caret line="4" column="97" selection-start-line="4" selection-start-column="97" selection-end-line="4" selection-end-column="97" />
+                      <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
                     </state>
                   </provider>
                 </entry>
@@ -53,8 +53,8 @@
                   <file pinned="false" current-in-tab="true">
                     <entry file="file://$PROJECT_DIR$/pages/product_page.py">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="372">
-                          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+                        <state relative-caret-position="236">
+                          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
                           <folding>
                             <element signature="e#0#31#0" expanded="true" />
                           </folding>
@@ -87,7 +87,7 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/pages/locators.py">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="1564">
+                    <state relative-caret-position="1666">
                       <caret line="20" column="66" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
                     </state>
                   </provider>
@@ -337,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563123425835</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added test_product_page">
+      <created>1563124060443</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1563124060443</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -525,7 +532,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/locators.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1564">
+        <state relative-caret-position="1666">
           <caret line="20" column="66" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
         </state>
       </provider>
@@ -533,14 +540,14 @@
     <entry file="file://$PROJECT_DIR$/test_product_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="4" column="97" selection-start-line="4" selection-start-column="97" selection-end-line="4" selection-end-column="97" />
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/product_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="236">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
