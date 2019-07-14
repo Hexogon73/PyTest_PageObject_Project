@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0974d7b-2144-4499-9475-dd0bc49abb66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/product_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_product_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/locators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_main_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/product_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/product_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_product_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_product_page.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,19 +13,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.32874495">
+    <splitter split-orientation="horizontal" split-proportion="0.28421053">
       <split-first>
-        <splitter split-orientation="vertical" split-proportion="0.27366608">
+        <splitter split-orientation="vertical" split-proportion="0.9">
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/test_product_page.py">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="101">
-                      <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-                      <folding>
-                        <element signature="e#0#43#0" expanded="true" />
-                      </folding>
+                    <state relative-caret-position="153">
+                      <caret line="4" column="97" selection-start-line="4" selection-start-column="97" selection-end-line="4" selection-end-column="97" />
                     </state>
                   </provider>
                 </entry>
@@ -40,8 +34,8 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/test_main_page.py">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="102">
-                      <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+                    <state relative-caret-position="3">
+                      <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
                     </state>
                   </provider>
                 </entry>
@@ -51,16 +45,16 @@
         </splitter>
       </split-first>
       <split-second>
-        <splitter split-orientation="horizontal" split-proportion="0.4137515">
+        <splitter split-orientation="horizontal" split-proportion="0.8020362">
           <split-first>
-            <splitter split-orientation="vertical" split-proportion="0.58016145">
+            <splitter split-orientation="vertical" split-proportion="0.9">
               <split-first>
                 <leaf>
                   <file pinned="false" current-in-tab="true">
                     <entry file="file://$PROJECT_DIR$/pages/product_page.py">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="170">
-                          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+                        <state relative-caret-position="372">
+                          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
                           <folding>
                             <element signature="e#0#31#0" expanded="true" />
                           </folding>
@@ -75,7 +69,7 @@
                   <file pinned="false" current-in-tab="true">
                     <entry file="file://$PROJECT_DIR$/pages/main_page.py">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="128">
+                        <state relative-caret-position="6">
                           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
                           <folding>
                             <element signature="e#0#31#0" expanded="true" />
@@ -90,23 +84,20 @@
           </split-first>
           <split-second>
             <leaf>
-              <file pinned="false" current-in-tab="false">
+              <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/pages/locators.py">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="697">
-                      <caret line="22" selection-start-line="22" selection-end-line="22" />
+                    <state relative-caret-position="1564">
+                      <caret line="20" column="66" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file pinned="false" current-in-tab="true">
+              <file pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/pages/base_page.py">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="377">
-                      <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-                      <folding>
-                        <element signature="e#0#11#0" expanded="true" />
-                      </folding>
+                    <state relative-caret-position="292">
+                      <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
                     </state>
                   </provider>
                 </entry>
@@ -140,11 +131,11 @@
         <option value="$PROJECT_DIR$/pages/login_page.py" />
         <option value="$PROJECT_DIR$/test_login_page.py" />
         <option value="$PROJECT_DIR$/pages/main_page.py" />
-        <option value="$PROJECT_DIR$/pages/locators.py" />
         <option value="$PROJECT_DIR$/pages/base_page.py" />
-        <option value="$PROJECT_DIR$/pages/product_page.py" />
-        <option value="$PROJECT_DIR$/test_product_page.py" />
         <option value="$PROJECT_DIR$/test_main_page.py" />
+        <option value="$PROJECT_DIR$/pages/locators.py" />
+        <option value="$PROJECT_DIR$/test_product_page.py" />
+        <option value="$PROJECT_DIR$/pages/product_page.py" />
       </list>
     </option>
   </component>
@@ -332,13 +323,24 @@
       <option name="project" value="LOCAL" />
       <updated>1563113650715</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fixed errors in test_main_page">
+      <created>1563118931390</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1563118931390</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added test_product_page">
+      <created>1563123425835</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1563123425835</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest - 2019.07.14 at 17h 28m 53s.xml">
-      <configuration name="pytest" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest - 2019.07.14 at 17h 29m 21s.xml">
       <configuration name="pytest" configurationId="tests" />
     </history-entry>
@@ -365,6 +367,9 @@
     </history-entry>
     <history-entry file="pytest - 2019.07.14 at 19h 06m 08s.xml">
       <configuration name="pytest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_main_page_test_guest_can_go_to_login_page - 2019.07.14 at 19h 40m 16s.xml">
+      <configuration name="pytest for test_main_page.test_guest_can_go_to_login_page" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -401,7 +406,9 @@
     <MESSAGE value="added should_be assert" />
     <MESSAGE value="added login page tests" />
     <MESSAGE value="added transitions between pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="added transitions between pages" />
+    <MESSAGE value="fixed errors in test_main_page" />
+    <MESSAGE value="added test_product_page" />
+    <option name="LAST_COMMIT_MESSAGE" value="added test_product_page" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -411,11 +418,6 @@
           <url>file://$PROJECT_DIR$/pages/main_page.py</url>
           <line>9</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test_product_page.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -497,16 +499,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/locators.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/main_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
+        <state relative-caret-position="6">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
@@ -514,40 +509,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/product_page.py">
+    <entry file="file://$PROJECT_DIR$/test_main_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_product_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="3">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/base_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="292">
+          <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_main_page.py">
+    <entry file="file://$PROJECT_DIR$/pages/locators.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+        <state relative-caret-position="1564">
+          <caret line="20" column="66" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_product_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="4" column="97" selection-start-line="4" selection-start-column="97" selection-end-line="4" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/product_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
