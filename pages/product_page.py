@@ -11,19 +11,22 @@ class ProductPage(BasePage):
     def should_be_present_success_message(self, product_name=None):
         """Проверяет что сообщение об успешности добавления товара в корзину отображается
         """
-        assert self.is_element_present(*ProductPageLocators.MESSAGE_SUCCSESS), 'Success alert is not presented'
+        assert self.is_element_present(
+            *ProductPageLocators.PRODUCT_NAME_IN_MESSAGE_SUCCSESS), 'Success alert is not presented'
         if not product_name:
             product_name = self.get_product_name()
-        alert = self.browser.find_element(*ProductPageLocators.MESSAGE_SUCCSESS)
-        assert product_name in alert.text, f'Product name({product_name}) should be in alert.text({alert.text}) but not'
+        alert_product_name = self.browser.find_element(*ProductPageLocators.PRODUCT_NAME_IN_MESSAGE_SUCCSESS).text
+        assert product_name == alert_product_name, \
+            f'Product name({product_name}) should be equal alert.text({alert_product_name}) but not'
 
     def should_be_present_cost_basket_message(self, product_price=None):
         assert self.is_element_present(
-            *ProductPageLocators.MESSAGE_CHANGE_COST_BASKET), 'Success alert is not presented'
+            *ProductPageLocators.PRICE_IN_MESSAGE_CHANGE_COST), 'Success alert is not presented'
         if not product_price:
             product_price = self.get_product_price()
-        alert = self.browser.find_element(*ProductPageLocators.MESSAGE_CHANGE_COST_BASKET)
-        assert product_price in alert.text, f'Price({product_price}) should be in alert.text({alert.text}) but not'
+        alert_product_price = self.browser.find_element(*ProductPageLocators.PRICE_IN_MESSAGE_CHANGE_COST).text
+        assert product_price == alert_product_price, \
+            f'Price({product_price}) should be equal alert.text({alert_product_price}) but not'
 
     def get_product_name(self) -> str:
         return self.browser.find_element(*ProductPageLocators.PRODUCT_NAME_LABEL).text

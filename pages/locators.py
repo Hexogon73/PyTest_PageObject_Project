@@ -21,5 +21,5 @@ class ProductPageLocators:
     PRODUCT_COST_LABEL = (By.CSS_SELECTOR, 'p[class="price_color"]')
     PRODUCT_NAME_LABEL = (By.CSS_SELECTOR, 'div[class*="product_main"]>h1')
     ADD_TO_BASKET_BUTTON = (By.CSS_SELECTOR, 'button[class*="btn-add-to-basket"]')
-    MESSAGE_SUCCSESS = (By.CSS_SELECTOR, 'div[class*="alert-success"]>div[class^="alertinner"]')
-    MESSAGE_CHANGE_COST_BASKET = (By.CSS_SELECTOR, 'div[class*="alert-info"]>div[class^="alertinner"]>p')
+    PRODUCT_NAME_IN_MESSAGE_SUCCSESS = (By.CSS_SELECTOR, 'div[class*="alert-success"]>div[class^="alertinner"]>strong')
+    PRICE_IN_MESSAGE_CHANGE_COST = (By.CSS_SELECTOR, 'div[class*="alert-info"]>div[class^="alertinner"] strong')

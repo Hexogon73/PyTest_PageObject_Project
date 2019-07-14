@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a0974d7b-2144-4499-9475-dd0bc49abb66" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/locators.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/product_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/product_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_product_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_product_page.py" afterDir="false" />
     </list>
@@ -13,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.43562752">
+    <splitter split-orientation="horizontal" split-proportion="0.13857375">
       <split-first>
         <splitter split-orientation="vertical" split-proportion="0.9">
           <split-first>
@@ -21,8 +22,11 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/test_product_page.py">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="153">
-                      <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+                    <state relative-caret-position="1358">
+                      <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+                      <folding>
+                        <element signature="e#0#43#0" expanded="true" />
+                      </folding>
                     </state>
                   </provider>
                 </entry>
@@ -45,7 +49,7 @@
         </splitter>
       </split-first>
       <split-second>
-        <splitter split-orientation="horizontal" split-proportion="0.8020362">
+        <splitter split-orientation="horizontal" split-proportion="0.7601129">
           <split-first>
             <splitter split-orientation="vertical" split-proportion="0.9">
               <split-first>
@@ -53,8 +57,8 @@
                   <file pinned="false" current-in-tab="true">
                     <entry file="file://$PROJECT_DIR$/pages/product_page.py">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="236">
-                          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+                        <state relative-caret-position="219">
+                          <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
                           <folding>
                             <element signature="e#0#31#0" expanded="true" />
                           </folding>
@@ -87,8 +91,8 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/pages/locators.py">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="1666">
-                      <caret line="20" column="66" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
+                    <state relative-caret-position="306">
+                      <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
                     </state>
                   </provider>
                 </entry>
@@ -118,6 +122,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>By</find>
+      <find>@pytest.mark.parametrize</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -133,8 +138,8 @@
         <option value="$PROJECT_DIR$/pages/main_page.py" />
         <option value="$PROJECT_DIR$/pages/base_page.py" />
         <option value="$PROJECT_DIR$/test_main_page.py" />
-        <option value="$PROJECT_DIR$/pages/locators.py" />
         <option value="$PROJECT_DIR$/test_product_page.py" />
+        <option value="$PROJECT_DIR$/pages/locators.py" />
         <option value="$PROJECT_DIR$/pages/product_page.py" />
       </list>
     </option>
@@ -344,7 +349,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563124060443</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="fixed product_page methods structure">
+      <created>1563125299614</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1563125299614</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -405,6 +417,16 @@
       <window_info anchor="right" id="Key Promoter X" order="4" />
     </layout>
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="added requirements, conftest and simple test_main_page without POM" />
@@ -415,7 +437,8 @@
     <MESSAGE value="added transitions between pages" />
     <MESSAGE value="fixed errors in test_main_page" />
     <MESSAGE value="added test_product_page" />
-    <option name="LAST_COMMIT_MESSAGE" value="added test_product_page" />
+    <MESSAGE value="fixed product_page methods structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed product_page methods structure" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -530,24 +553,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/locators.py">
+    <entry file="file://$PROJECT_DIR$/test_product_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1666">
-          <caret line="20" column="66" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
+        <state relative-caret-position="1358">
+          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_product_page.py">
+    <entry file="file://$PROJECT_DIR$/pages/locators.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+        <state relative-caret-position="306">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/product_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        <state relative-caret-position="219">
+          <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
