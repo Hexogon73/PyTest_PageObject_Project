@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0974d7b-2144-4499-9475-dd0bc49abb66" name="Default Changelist" comment="">
+    <list default="true" id="a0974d7b-2144-4499-9475-dd0bc49abb66" name="Default Changelist" comment="added negative checks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/locators.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/product_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/product_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_product_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_product_page.py" afterDir="false" />
@@ -14,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.13857375">
+    <splitter split-orientation="horizontal" split-proportion="0.38380566">
       <split-first>
         <splitter split-orientation="vertical" split-proportion="0.9">
           <split-first>
@@ -22,10 +23,10 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/test_product_page.py">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="1358">
-                      <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+                    <state relative-caret-position="51">
+                      <caret line="3" selection-start-line="3" selection-end-line="3" />
                       <folding>
-                        <element signature="e#0#43#0" expanded="true" />
+                        <element signature="e#0#13#0" expanded="true" />
                       </folding>
                     </state>
                   </provider>
@@ -34,12 +35,12 @@
             </leaf>
           </split-first>
           <split-second>
-            <leaf>
+            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/test_main_page.py">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="3">
-                      <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+                    <state>
+                      <caret line="12" selection-start-line="12" selection-end-line="12" />
                     </state>
                   </provider>
                 </entry>
@@ -49,16 +50,16 @@
         </splitter>
       </split-first>
       <split-second>
-        <splitter split-orientation="horizontal" split-proportion="0.7601129">
+        <splitter split-orientation="horizontal" split-proportion="0.6721311">
           <split-first>
             <splitter split-orientation="vertical" split-proportion="0.9">
               <split-first>
-                <leaf>
+                <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
                   <file pinned="false" current-in-tab="true">
                     <entry file="file://$PROJECT_DIR$/pages/product_page.py">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="219">
-                          <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+                        <state relative-caret-position="17">
+                          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
                           <folding>
                             <element signature="e#0#31#0" expanded="true" />
                           </folding>
@@ -69,11 +70,11 @@
                 </leaf>
               </split-first>
               <split-second>
-                <leaf>
+                <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
                   <file pinned="false" current-in-tab="true">
                     <entry file="file://$PROJECT_DIR$/pages/main_page.py">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="6">
+                        <state>
                           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
                           <folding>
                             <element signature="e#0#31#0" expanded="true" />
@@ -87,21 +88,24 @@
             </splitter>
           </split-first>
           <split-second>
-            <leaf>
-              <file pinned="false" current-in-tab="true">
+            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+              <file pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/pages/locators.py">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="306">
-                      <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+                    <state relative-caret-position="187">
+                      <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file pinned="false" current-in-tab="false">
+              <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/pages/base_page.py">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="292">
-                      <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+                    <state relative-caret-position="887">
+                      <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+                      <folding>
+                        <element signature="e#0#11#0" expanded="true" />
+                      </folding>
                     </state>
                   </provider>
                 </entry>
@@ -123,6 +127,10 @@
     <findStrings>
       <find>By</find>
       <find>@pytest.mark.parametrize</find>
+      <find>WebDriverWait</find>
+      <find>TimeoutException</find>
+      <find>EC.</find>
+      <find>Wait</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -136,11 +144,11 @@
         <option value="$PROJECT_DIR$/pages/login_page.py" />
         <option value="$PROJECT_DIR$/test_login_page.py" />
         <option value="$PROJECT_DIR$/pages/main_page.py" />
-        <option value="$PROJECT_DIR$/pages/base_page.py" />
         <option value="$PROJECT_DIR$/test_main_page.py" />
-        <option value="$PROJECT_DIR$/test_product_page.py" />
-        <option value="$PROJECT_DIR$/pages/locators.py" />
+        <option value="$PROJECT_DIR$/pages/base_page.py" />
         <option value="$PROJECT_DIR$/pages/product_page.py" />
+        <option value="$PROJECT_DIR$/pages/locators.py" />
+        <option value="$PROJECT_DIR$/test_product_page.py" />
       </list>
     </option>
   </component>
@@ -198,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest">
+  <component name="RunManager" selected="Python tests.pytest for test_product_page.py">
     <configuration default="true" type="tests" factoryName="py.test">
       <module name="PyTest_PageObject_Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -214,18 +222,18 @@
       <option name="_new_targetType" value="&quot;CUSTOM&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_main_page.test_guest_can_go_to_login_page" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_product_page.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="PyTest_PageObject_Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="C:\Users\Сергей\environments\selenium_env\Scripts\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_main_page.test_guest_can_go_to_login_page&quot;" />
+      <option name="_new_additionalArguments" value="&quot;-v -s &quot;" />
+      <option name="_new_target" value="&quot;test_product_page.py&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -246,11 +254,11 @@
     </configuration>
     <list>
       <item itemvalue="Python tests.pytest" />
-      <item itemvalue="Python tests.pytest for test_main_page.test_guest_can_go_to_login_page" />
+      <item itemvalue="Python tests.pytest for test_product_page.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_main_page.test_guest_can_go_to_login_page" />
+        <item itemvalue="Python tests.pytest for test_product_page.py" />
       </list>
     </recent_temporary>
   </component>
@@ -356,22 +364,17 @@
       <option name="project" value="LOCAL" />
       <updated>1563125299614</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="parametrize test_guest_can_add_product_to_cart">
+      <created>1563127237933</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1563127237934</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest - 2019.07.14 at 17h 29m 21s.xml">
-      <configuration name="pytest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest - 2019.07.14 at 17h 30m 00s.xml">
-      <configuration name="pytest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest - 2019.07.14 at 17h 30m 28s.xml">
-      <configuration name="pytest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest - 2019.07.14 at 17h 31m 32s.xml">
-      <configuration name="pytest" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest - 2019.07.14 at 17h 51m 34s.xml">
       <configuration name="pytest" configurationId="tests" />
     </history-entry>
@@ -390,6 +393,18 @@
     <history-entry file="pytest_for_test_main_page_test_guest_can_go_to_login_page - 2019.07.14 at 19h 40m 16s.xml">
       <configuration name="pytest for test_main_page.test_guest_can_go_to_login_page" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_product_page_py - 2019.07.14 at 23h 04m 54s.xml">
+      <configuration name="pytest for test_product_page.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_product_page_py - 2019.07.14 at 23h 05m 54s.xml">
+      <configuration name="pytest for test_product_page.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_product_page_py - 2019.07.14 at 23h 08m 30s.xml">
+      <configuration name="pytest for test_product_page.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_product_page_py - 2019.07.16 at 23h 44m 37s.xml">
+      <configuration name="pytest for test_product_page.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
@@ -400,14 +415,14 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298731" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3298731" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.8604383" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39907727" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3298731" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49959514" visible="true" weight="0.3298731" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49959514" weight="0.3298731" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50040483" side_tool="true" weight="0.3298731" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.3298731" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -438,7 +453,8 @@
     <MESSAGE value="fixed errors in test_main_page" />
     <MESSAGE value="added test_product_page" />
     <MESSAGE value="fixed product_page methods structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed product_page methods structure" />
+    <MESSAGE value="parametrize test_guest_can_add_product_to_cart" />
+    <option name="LAST_COMMIT_MESSAGE" value="parametrize test_guest_can_add_product_to_cart" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -529,9 +545,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test_main_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/main_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
+        <state>
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
@@ -539,43 +562,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_main_page.py">
+    <entry file="file://$PROJECT_DIR$/pages/locators.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="187">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/base_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_product_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1358">
-          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        <state relative-caret-position="887">
+          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/locators.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/product_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+        <state relative-caret-position="17">
+          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_product_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
