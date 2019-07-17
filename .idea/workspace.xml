@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0974d7b-2144-4499-9475-dd0bc49abb66" name="Default Changelist" comment="">
+    <list default="true" id="a0974d7b-2144-4499-9475-dd0bc49abb66" name="Default Changelist" comment="added inheritable methods in base page(https://stepik.org/lesson/201964/step/8)">
+      <change afterPath="$PROJECT_DIR$/pages/cart_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/locators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/main_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_main_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_product_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_product_page.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,14 +17,35 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5149798">
+    <splitter split-orientation="horizontal" split-proportion="0.58785427">
       <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pages/main_page.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="51">
+                  <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/test_product_page.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="717">
-                  <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+                <state relative-caret-position="84">
+                  <caret line="88" selection-start-line="88" selection-end-line="88" />
+                  <folding>
+                    <element signature="e#0#11#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/test_main_page.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="289">
+                  <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
                   <folding>
                     <element signature="e#0#13#0" expanded="true" />
                   </folding>
@@ -30,22 +53,13 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pages/product_page.py">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/pages/login_page.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-201">
-                  <caret line="1" selection-start-line="1" selection-end-line="2" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pages/base_page.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+                <state relative-caret-position="581">
+                  <caret line="33" column="59" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
                   <folding>
-                    <element signature="e#0#11#0" expanded="true" />
+                    <element signature="e#0#31#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -55,31 +69,35 @@
       </split-first>
       <split-second>
         <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/pages/main_page.py">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pages/locators.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+                <state relative-caret-position="298">
+                  <caret line="32" column="47" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pages/login_page.py">
+            <entry file="file://$PROJECT_DIR$/pages/base_page.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
+                <state relative-caret-position="207">
+                  <caret line="62" column="20" lean-forward="true" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
                   <folding>
-                    <element signature="e#0#31#0" expanded="true" />
+                    <element signature="e#0#11#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pages/locators.py">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/pages/cart_page.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
+                <state relative-caret-position="340">
                   <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+                  <folding>
+                    <element signature="e#0#31#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -97,13 +115,20 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>By</find>
       <find>@pytest.mark.parametrize</find>
       <find>WebDriverWait</find>
       <find>TimeoutException</find>
       <find>EC.</find>
       <find>Wait</find>
       <find>guest_can_go_to_login_page</find>
+      <find>wait</find>
+      <find>By</find>
+      <find>should_b</find>
+      <find>is_not_element_present</find>
+      <find>py</find>
+      <find>test_guest_should_see_login_link</find>
+      <find>test_guest_can_add_product_to_cart</find>
+      <find>should_be_authorized_user</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -114,14 +139,15 @@
       <list>
         <option value="$PROJECT_DIR$/__init__.py" />
         <option value="$PROJECT_DIR$/conftest.py" />
-        <option value="$PROJECT_DIR$/pages/login_page.py" />
         <option value="$PROJECT_DIR$/test_login_page.py" />
-        <option value="$PROJECT_DIR$/test_main_page.py" />
         <option value="$PROJECT_DIR$/pages/product_page.py" />
-        <option value="$PROJECT_DIR$/pages/locators.py" />
         <option value="$PROJECT_DIR$/pages/main_page.py" />
+        <option value="$PROJECT_DIR$/pages/cart_page.py" />
+        <option value="$PROJECT_DIR$/test_main_page.py" />
+        <option value="$PROJECT_DIR$/pages/locators.py" />
         <option value="$PROJECT_DIR$/pages/base_page.py" />
         <option value="$PROJECT_DIR$/test_product_page.py" />
+        <option value="$PROJECT_DIR$/pages/login_page.py" />
       </list>
     </option>
   </component>
@@ -179,7 +205,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_product_page.test_guest_can_go_to_login_page_from_product_page">
+  <component name="RunManager" selected="Python tests.pytest for test_product_page.TestUserAddToCartFromProductPage">
     <configuration default="true" type="tests" factoryName="py.test">
       <module name="PyTest_PageObject_Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -195,7 +221,22 @@
       <option name="_new_targetType" value="&quot;CUSTOM&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_product_page.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_main_page.TestLoginFromMainPage" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="PyTest_PageObject_Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\Сергей\environments\selenium_env\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_main_page.TestLoginFromMainPage&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_main_page.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="PyTest_PageObject_Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -205,8 +246,23 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;-v -s &quot;" />
-      <option name="_new_target" value="&quot;test_product_page.py&quot;" />
+      <option name="_new_additionalArguments" value="&quot;-v --tb\u003dline --language\u003den -m login_guest &quot;" />
+      <option name="_new_target" value="&quot;test_main_page.py&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_product_page.TestUserAddToCartFromProductPage" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="PyTest_PageObject_Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\Сергей\environments\selenium_env\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_product_page.TestUserAddToCartFromProductPage&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -225,7 +281,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_product_page.test_guest_should_see_login_link_on_product_page" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_product_page.test_guest_cant_see_product_in_cart_opened_from_product_page" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="PyTest_PageObject_Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -236,7 +292,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_product_page.test_guest_should_see_login_link_on_product_page&quot;" />
+      <option name="_new_target" value="&quot;test_product_page.test_guest_cant_see_product_in_cart_opened_from_product_page&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -257,15 +313,19 @@
     </configuration>
     <list>
       <item itemvalue="Python tests.pytest" />
-      <item itemvalue="Python tests.pytest for test_product_page.py" />
       <item itemvalue="Python tests.pytest for test_product_page.test_guest_can_go_to_login_page_from_product_page" />
-      <item itemvalue="Python tests.pytest for test_product_page.test_guest_should_see_login_link_on_product_page" />
+      <item itemvalue="Python tests.pytest for test_main_page.py" />
+      <item itemvalue="Python tests.pytest for test_product_page.test_guest_cant_see_product_in_cart_opened_from_product_page" />
+      <item itemvalue="Python tests.pytest for test_main_page.TestLoginFromMainPage" />
+      <item itemvalue="Python tests.pytest for test_product_page.TestUserAddToCartFromProductPage" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_product_page.TestUserAddToCartFromProductPage" />
+        <item itemvalue="Python tests.pytest for test_main_page.TestLoginFromMainPage" />
+        <item itemvalue="Python tests.pytest for test_main_page.py" />
+        <item itemvalue="Python tests.pytest for test_product_page.test_guest_cant_see_product_in_cart_opened_from_product_page" />
         <item itemvalue="Python tests.pytest for test_product_page.test_guest_can_go_to_login_page_from_product_page" />
-        <item itemvalue="Python tests.pytest for test_product_page.test_guest_should_see_login_link_on_product_page" />
-        <item itemvalue="Python tests.pytest for test_product_page.py" />
       </list>
     </recent_temporary>
   </component>
@@ -385,39 +445,46 @@
       <option name="project" value="LOCAL" />
       <updated>1563307084515</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="added inheritable methods in base page(https://stepik.org/lesson/201964/step/8)">
+      <created>1563388371452</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1563388371452</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_product_page_py - 2019.07.14 at 23h 05m 54s.xml">
-      <configuration name="pytest for test_product_page.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_main_page_test_guest_cant_see_product_in_cart_opened_from_main_page - 2019.07.18 at 00h 17m 35s.xml">
+      <configuration name="pytest for test_main_page.test_guest_cant_see_product_in_cart_opened_from_main_page" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_product_page_py - 2019.07.14 at 23h 08m 30s.xml">
-      <configuration name="pytest for test_product_page.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_main_page_py - 2019.07.18 at 00h 19m 31s.xml">
+      <configuration name="pytest for test_main_page.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_product_page_py - 2019.07.16 at 23h 44m 37s.xml">
-      <configuration name="pytest for test_product_page.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_main_page_py - 2019.07.18 at 00h 20m 22s.xml">
+      <configuration name="pytest for test_main_page.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_product_page_test_guest_can_go_to_login_page_from_product_page - 2019.07.17 at 22h 13m 16s.xml">
-      <configuration name="pytest for test_product_page.test_guest_can_go_to_login_page_from_product_page" configurationId="tests" />
+    <history-entry file="pytest_for_test_main_page_py - 2019.07.18 at 00h 20m 46s.xml">
+      <configuration name="pytest for test_main_page.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_product_page_test_guest_can_go_to_login_page_from_product_page - 2019.07.17 at 22h 15m 02s.xml">
-      <configuration name="pytest for test_product_page.test_guest_can_go_to_login_page_from_product_page" configurationId="tests" />
+    <history-entry file="pytest_for_test_main_page_TestLoginFromMainPage - 2019.07.18 at 00h 21m 49s.xml">
+      <configuration name="pytest for test_main_page.TestLoginFromMainPage" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_product_page_test_guest_can_go_to_login_page_from_product_page - 2019.07.17 at 22h 17m 18s.xml">
-      <configuration name="pytest for test_product_page.test_guest_can_go_to_login_page_from_product_page" configurationId="tests" />
+    <history-entry file="pytest_for_test_main_page_TestLoginFromMainPage - 2019.07.18 at 00h 23m 48s.xml">
+      <configuration name="pytest for test_main_page.TestLoginFromMainPage" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_product_page_test_guest_can_go_to_login_page_from_product_page - 2019.07.17 at 22h 19m 29s.xml">
-      <configuration name="pytest for test_product_page.test_guest_can_go_to_login_page_from_product_page" configurationId="tests" />
+    <history-entry file="pytest_for_test_product_page_TestUserAddToCartFromProductPage - 2019.07.18 at 01h 11m 05s.xml">
+      <configuration name="pytest for test_product_page.TestUserAddToCartFromProductPage" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_product_page_test_guest_should_see_login_link_on_product_page - 2019.07.17 at 22h 22m 44s.xml">
-      <configuration name="pytest for test_product_page.test_guest_should_see_login_link_on_product_page" configurationId="tests" />
+    <history-entry file="pytest_for_test_product_page_TestUserAddToCartFromProductPage - 2019.07.18 at 01h 11m 43s.xml">
+      <configuration name="pytest for test_product_page.TestUserAddToCartFromProductPage" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_product_page_test_guest_can_go_to_login_page_from_product_page - 2019.07.17 at 22h 23m 01s.xml">
-      <configuration name="pytest for test_product_page.test_guest_can_go_to_login_page_from_product_page" configurationId="tests" />
+    <history-entry file="pytest_for_test_product_page_TestUserAddToCartFromProductPage - 2019.07.18 at 01h 12m 17s.xml">
+      <configuration name="pytest for test_product_page.TestUserAddToCartFromProductPage" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_product_page_test_guest_can_go_to_login_page_from_product_page - 2019.07.17 at 22h 23m 22s.xml">
-      <configuration name="pytest for test_product_page.test_guest_can_go_to_login_page_from_product_page" configurationId="tests" />
+    <history-entry file="pytest_for_test_product_page_TestUserAddToCartFromProductPage - 2019.07.18 at 01h 13m 52s.xml">
+      <configuration name="pytest for test_product_page.TestUserAddToCartFromProductPage" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -509,11 +576,17 @@
     <MESSAGE value="fixed product_page methods structure" />
     <MESSAGE value="parametrize test_guest_can_add_product_to_cart" />
     <MESSAGE value="added negative checks(https://stepik.org/lesson/201964/step/6)" />
-    <option name="LAST_COMMIT_MESSAGE" value="added negative checks(https://stepik.org/lesson/201964/step/6)" />
+    <MESSAGE value="added inheritable methods in base page(https://stepik.org/lesson/201964/step/8)" />
+    <option name="LAST_COMMIT_MESSAGE" value="added inheritable methods in base page(https://stepik.org/lesson/201964/step/8)" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>self.browser.find_element(*CartPageLocators.EMPTY_MESSAGE)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>MainPageLocators.LOGIN_LINK</expression-string>
         <language-id>Python</language-id>
@@ -579,20 +652,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_main_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/locators.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/product_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-201">
@@ -600,38 +659,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/login_page.py">
+    <entry file="file://$USER_HOME$/environments/selenium_env/Lib/site-packages/selenium/webdriver/support/wait.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="92">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/environments/selenium_env/Lib/site-packages/selenium/webdriver/support/expected_conditions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="202" column="25" selection-start-line="202" selection-start-column="25" selection-end-line="202" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/main_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/locators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="32" column="47" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/base_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        <state relative-caret-position="207">
+          <caret line="62" column="20" lean-forward="true" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/main_page.py">
+    <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-155694144/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="1351">
+          <caret line="4212" column="8" selection-start-line="4212" selection-start-column="8" selection-end-line="4212" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/cart_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_main_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_product_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="84">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/login_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="33" column="59" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>

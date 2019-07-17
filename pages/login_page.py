@@ -30,3 +30,12 @@ class LoginPage(BasePage):
         for registration_form_locator in registration_form_locators:
             assert self.is_element_present(*registration_form_locator), 'Element with locator "{}" is not found'.format(
                 registration_form_locator[1])
+
+    def register_new_user(self, email: str, password: str):
+        registration_inputs_locators = [Locators.REGISTRATION_EMAIL_INPUT,
+                                        Locators.REGISTRATION_PASSWORD_INPUT1,
+                                        Locators.REGISTRATION_PASSWORD_INPUT2]
+        registration_data = [email, password, password]
+        for input_locator, text in zip(registration_inputs_locators, registration_data):
+            self.browser.find_element(*input_locator).send_keys(text)
+        self.browser.find_element(*Locators.REGISTRATION_BUTTON).click()
