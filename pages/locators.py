@@ -24,3 +24,8 @@ class ProductPageLocators:
     SUCCESS_MESSAGE = (By.CSS_SELECTOR, 'div[class*="alert-success"]')
     PRODUCT_NAME_IN_MESSAGE_SUCCSESS = (By.CSS_SELECTOR, f'{SUCCESS_MESSAGE[1]}>div[class^="alertinner"]>strong')
     PRICE_IN_MESSAGE_CHANGE_COST = (By.CSS_SELECTOR, 'div[class*="alert-info"]>div[class^="alertinner"] strong')
+
+
+class BasePageLocators(object):
+    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+    LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
